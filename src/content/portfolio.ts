@@ -1,0 +1,100 @@
+// All site copy and project data lives here — scenes only render it.
+
+export const identity = {
+  name: "Prakash Mannam",
+  roles: ["Java Backend Engineer", "Full-Stack Developer"],
+  statement: "I build backend systems and full-stack products with Java, Spring Boot, and React.",
+  location: "Ongole, Andhra Pradesh",
+};
+
+export const education = {
+  degree: "B.Tech — Computer Science & Engineering",
+  college: "QIS College of Engineering and Technology",
+  location: "Ongole, Andhra Pradesh",
+  graduating: "Graduating 2027",
+};
+
+export const about =
+  "I'm drawn to what happens beneath the interface — APIs, databases, and the systems that hold them together. I learn by building, and turn that understanding into working software.";
+
+export const campusCoders = {
+  title: "Campus Coders",
+  tagline: "Student-led DSA & Community Platform",
+  status: "Deployed Full-Stack App",
+  summary:
+    "Daily problems as curated links, learning paths, discussions, and announcements — in one place for students and admins.",
+  live: "https://campuscoders-theta.vercel.app",
+  links: [
+    { label: "Live", href: "https://campuscoders-theta.vercel.app" },
+    { label: "GitHub", href: "https://github.com/PrakashMannam/Campuscoders" },
+    {
+      label: "API Docs",
+      href: "https://campuscoders-backend-production.up.railway.app/swagger-ui.html",
+    },
+  ],
+  // Request path through the stack. Notes stay short by design.
+  layers: [
+    { name: "React", note: "Frontend client, deployed on Vercel." },
+    { name: "REST API", note: "JSON endpoints, documented with Swagger UI." },
+    { name: "Spring Security", note: "Guards endpoints before they reach application code." },
+    { name: "Controller", note: "Maps HTTP requests to application operations." },
+    { name: "Service", note: "Holds the application logic." },
+    { name: "JPA / Hibernate", note: "Maps Java entities to relational tables." },
+    { name: "MySQL", note: "Relational persistence for the platform's data." },
+  ],
+};
+
+export const miniRedis = {
+  title: "MiniRedis",
+  tagline: "In-memory database / networking experiment built in Java",
+  status: "Systems Prototype",
+  summary:
+    "A from-scratch in-memory key-value store built in Java with multithreaded TCP socket networking, custom RESP and text command parsing, ConcurrentHashMap storage, and scheduled TTL expiration.",
+  github: "https://github.com/PrakashMannam",
+  path: ["Client", "TCP", "Server Socket", "Command Parser", "In-Memory Store", "Response"],
+};
+
+export const technologies = [
+  "Java",
+  "Spring Boot",
+  "Spring Security",
+  "React",
+  "MySQL",
+  "JPA / Hibernate",
+  "JavaScript",
+  "JUnit",
+  "Docker",
+  "Networking",
+  "DSA",
+];
+
+export const contacts = [
+  { label: "GitHub", href: "https://github.com/PrakashMannam" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/prakash-mannam-19326b374" },
+  { label: "Codolio", href: "https://codolio.com/profile/Prakash%20Mannam1" },
+  { label: "Email", href: "mailto:prakashmannam8@gmail.com" },
+];
+
+export const resume: {
+  available: boolean;
+  placeholder: string;
+  href?: string;
+  emailHref: string;
+} = {
+  available: true,
+  placeholder: "Resume available on request",
+  href: "/resume.pdf",
+  emailHref: "mailto:prakashmannam8@gmail.com?subject=Resume%20Request%20-%20Prakash%20Mannam",
+};
+
+export const highlights = [
+  { metric: "Full-Stack", label: "Spring Boot & React in Production" },
+  { metric: "Layered", label: "Security, REST APIs & JPA" },
+  { metric: "TCP / RESP", label: "Multithreaded Network Store" },
+  { metric: "DSA", label: "Data Structures & Algorithms" },
+];
+
+export const footer = {
+  tagline: "Designed & built by Prakash Mannam",
+  year: 2026,
+};
